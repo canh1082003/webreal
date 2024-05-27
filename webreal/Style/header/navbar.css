@@ -1,0 +1,56 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+.ok {
+    border: 1px solid #fff
+}
+.header-nav {
+    font-size: 20px;
+    background-color: #4A6A67;
+    color:#fff;
+    display:flex;
+    padding:20px 100px;
+    
+}
+.header-nav-home{
+    color:#fff;
+    text-decoration:none;
+    font-size:50px;
+}
+.header-nav-home:hover {
+    cursor:pointer;
+}
+.header-nav-title {
+    flex: 1;
+    display: flex;
+    margin: 10px;
+    margin-left:200px
+}
+.header-nav-title-item{
+    flex:1;
+    color:#fff;
+    text-decoration:none;
+    font-size:30px
+}
+    .header-nav-title-item:hover {
+        font-size: 35px;
+        cursor: pointer;
+    }
+.icon-user {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px
+}
+.header-nav-info {
+   
+    display:flex;
+    line-height:65px;
+    margin-right:40px
+}
+.icon-cart {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px
+}
