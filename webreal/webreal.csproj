@@ -172,8 +172,11 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Style\Admin\list-product.css" />
+    <Content Include="Style\cart\cart.css" />
     <Content Include="Style\home\home.css" />
     <Content Include="Style\header\navbar.css" />
+    <Content Include="Style\Login\login.css" />
     <Content Include="Style\product\product.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -190,6 +193,10 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Product.cshtml" />
+    <Content Include="Views\Home\Cart.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Regsiter.cshtml" />
+    <Content Include="Views\Home\Admin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

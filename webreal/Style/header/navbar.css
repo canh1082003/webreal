@@ -44,12 +44,14 @@
     margin-top: 20px
 }
 .header-nav-info {
-   
+   color:#fff;
+   text-decoration:none;
     display:flex;
     line-height:65px;
     margin-right:40px
 }
 .icon-cart {
+    color:#fff;
     width: 30px;
     height: 30px;
     margin-top: 20px

@@ -1,0 +1,418 @@
+﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+    <link href="~/Style/cart/cart.css" rel="stylesheet" />
+    <link href="~/Style/Admin/list-product.css?v=1.0" rel="stylesheet" />
+</head>
+<body>
+    <div class="home-Admin">
+        <div class="list-title">
+            <h3 class="title-main">Danh Mục</h3>
+            <div class="list-title-phu">
+                <p class="title-phu" id="product-tab"> Product</p>
+                <p class="title-phu" id="user-tab"> User</p>
+            </div>
+        </div>
+        <div class="list-product-main">
+            <div class="list-product" id="product-list">
+                <div class="cart-col-lg-9">
+
+                    <div class="cart-card cart-border cart-shadow-0">
+                        <div class="cart-m-4">
+                            <div class="heading-admin-product">
+                                <h4 class="cart-card-title heading-title-admin">List Product</h4>
+                                <button class=" btn-heading-admin"> Add Product</button>
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+                                            <img src="~/Img/product/bacxiu.png" class="cart-border cart-rounded cart-img" />
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Bạc Xỉu</p>
+                                                <p class="cart-text-muted">Rất Ngon</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <text class="cart-h6">$1156.00</text> <br />
+                                        <small class="cart-text-muted cart-text-nowrap"> $460.00 / per item </small>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+                                            <img src="~/Img/product/bacxiu.png" class="cart-border cart-rounded cart-img" />
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Bạc Xỉu</p>
+                                                <p class="cart-text-muted">Rất Ngon</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <text class="cart-h6">$1156.00</text> <br />
+                                        <small class="cart-text-muted cart-text-nowrap"> $460.00 / per item </small>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+                                            <img src="~/Img/product/bacxiu.png" class="cart-border cart-rounded cart-img" />
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Bạc Xỉu</p>
+                                                <p class="cart-text-muted">Rất Ngon</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <text class="cart-h6">$1156.00</text> <br />
+                                        <small class="cart-text-muted cart-text-nowrap"> $460.00 / per item </small>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="list-user hidden" id="user-list">
+                <div class="cart-col-lg-9">
+                    <div class="cart-card cart-border cart-shadow-0">
+                        <div class="cart-m-4">
+                            <div class="heading-admin-product">
+                                <h4 class="cart-card-title heading-title-admin">List User</h4>
+                                <button class=" btn-heading-admin" id="addUserBtn"> Add User</button>
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Nguyễn Công Anh</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <h4 class="cart-h6">abc@gmail.com</h4>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger" id="editUserBtn">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Nguyễn Công Anh</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <h4 class="cart-h6">abc@gmail.com</h4>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="cart-row cart-gy-3 cart-mb-4">
+                                <div class="cart-col-lg-5">
+                                    <div class="cart-me-lg-5">
+                                        <div class="cart-d-flex">
+
+                                            <div>
+                                                <p href="#" class="cart-nav-name">Nguyễn Công Anh</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-col-lg-2 cart-col-sm-6 cart-col-6 cart-d-flex cart-flex-row cart-flex-lg-column cart-flex-xl-row cart-text-nowrap">
+
+                                    <div>
+                                        <h4 class="cart-h6">abc@gmail.com</h4>
+                                    </div>
+                                    <div>
+
+                                        <button class="cart-btn-edit cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger">Sửa</button>
+                                    </div>
+                                    <div class="cart-icon-remove">
+                                        <a href="#" class="cart-btn cart-btn-light cart-border cart-text-danger cart-icon-hover-danger"> Xóa</a>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @* modalProduct*@
+    @* open*@
+    <div class="modal hidden" id="productModal">
+        <div class="modal-content">
+            <h2>Add Product</h2>
+            <form id="addProductForm" class="modal-form-product">
+                <div class="modal-form-heading">
+                    <label for="productName" class="modal-form-name">Name:</label>
+                    <input type="text" id="productName" class="productInput" name="name" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="productPrice" class="modal-form-name">Price:</label>
+                    <input type="text" id="productPrice" class="productInput" name="price" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="productDescription" class="modal-form-name">Description:</label>
+                    <input type="text" id="productDescription" class="productInput" name="description" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="productImage" class="modal-form-name">Image URL:</label>
+                    <input type="file" id="productImage" class="productInput" name="img" required>
+                </div>
+                <button type="submit" class="btn-add">Submit</button>
+                <button type="button" id="closeModal" class="btn-close">Cancel</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.querySelector('.btn-heading-admin').addEventListener('click', function () {
+            document.getElementById('productModal').classList.remove('hidden');
+        });
+
+        document.getElementById('closeModal').addEventListener('click', function () {
+            document.getElementById('productModal').classList.add('hidden');
+        });
+
+        document.getElementById('addProductForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Handle form submission logic here
+
+            // Close the modal after form submission
+            document.getElementById('productModal').classList.add('hidden');
+        });
+
+    </script>
+    @*   close*@
+
+
+    @* modalEditProduct
+        Open*@
+    <div class="modal-edit hidden" id="editProductModal">
+        <div class="modal-content">
+            <h2>Edit Product</h2>
+            <form id="editProductForm" class="modal-form-product">
+                <div class="modal-form-heading">
+                    <label for="productName" class="modal-form-name">Name:</label>
+                    <input type="text" id="productName" class="productInput" name="name" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="productPrice" class="modal-form-name">Price:</label>
+                    <input type="text" id="productPrice" class="productInput" name="price" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="productDescription" class="modal-form-name">Description:</label>
+                    <input type="text" id="productDescription" class="productInput" name="description" required>
+                </div>
+
+                <button type="submit" class="btn-add">Submit</button>
+                <button type="button" id="closeModal-edit" class="btn-close">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.cart-btn-edit').addEventListener('click', function () {
+            document.getElementById('editProductModal').classList.remove('hidden');
+        });
+
+        document.getElementById('closeModal-edit').addEventListener('click', function () {
+            document.getElementById('editProductModal').classList.add('hidden');
+        });
+
+        document.getElementById('editProductForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Handle form submission logic here
+
+            // Close the modal after form submission
+            document.getElementById('editProductModal').classList.add('hidden');
+        });
+    </script>
+    @* Close*@
+
+
+
+    @* modalAddUser
+        Open*@
+    <div class="modal-add-user hidden" id="addUserModal">
+        <div class="modal-content">
+            <h2>Add User</h2>
+            <form id="addUserForm" class="modal-form-product">
+                <div class="modal-form-heading">
+                    <label for="userName" class="modal-form-name">Name:</label>
+                    <input type="text" id="userName" class="productInput" name="userName" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="userEmail" class="modal-form-name">Email:</label>
+                    <input type="email" id="userEmail" class="productInput" name="userEmail" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="userPassword" class="modal-form-name">Password:</label>
+                    <input type="password" id="userPassword" class="productInput" name="userPassword" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="userConfirmPassword" class="modal-form-name">Confirm Password:</label>
+                    <input type="password" id="userConfirmPassword" class="productInput" name="userConfirmPassword" required>
+                </div>
+
+                <button type="submit" class="btn-add">Submit</button>
+                <button type="button" id="closeUserModal" class="btn-close">Cancel</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('addUserBtn').addEventListener('click', function () {
+            document.getElementById('addUserModal').classList.remove('hidden');
+        });
+
+        document.getElementById('closeUserModal').addEventListener('click', function () {
+            document.getElementById('addUserModal').classList.add('hidden');
+        });
+
+        document.getElementById('addUserForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Add your form submission logic here
+            alert('User added successfully!');
+            document.getElementById('addUserModal').classList.add('hidden');
+        });
+    </script>
+    @* Close*@
+
+    @* modalEditUser
+        Open*@
+    <div class="modal-edit-user hidden" id="editUserModal">
+        <div class="modal-content">
+            <h2>Edit User</h2>
+            <form id="editUserForm" class="modal-form-product">
+                <div class="modal-form-heading">
+                    <label for="editUserName" class="modal-form-name">Name:</label>
+                    <input type="text" id="editUserName" class="productInput" name="userName" required>
+                </div>
+                <div class="modal-form-heading">
+                    <label for="editUserEmail" class="modal-form-name">Email:</label>
+                    <input type="email" id="editUserEmail" class="productInput" name="userEmail" required>
+                </div>
+                <button type="submit" class="btn-add">Submit</button>
+                <button type="button" id="closeEditUserModal" class="btn-close">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('editUserBtn').addEventListener('click', function () {
+            document.getElementById('editUserModal').classList.remove('hidden');
+        });
+
+        document.getElementById('closeEditUserModal').addEventListener('click', function () {
+            document.getElementById('editUserModal').classList.add('hidden');
+        });
+
+        document.getElementById('editUserForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            // Add your form submission logic here
+            alert('User updated successfully!');
+            document.getElementById('editUserModal').classList.add('hidden');
+        });
+    </script>
+    @* Close*@
+    <script>
+        window.onload = function () {
+            document.getElementById('product-list').classList.remove('hidden');
+            document.getElementById('user-list').classList.add('hidden');
+        }
+        document.getElementById('product-tab').addEventListener('click', function () {
+            document.getElementById('product-list').classList.remove('hidden');
+            document.getElementById('user-list').classList.add('hidden');
+        });
+
+        document.getElementById('user-tab').addEventListener('click', function () {
+            document.getElementById('product-list').classList.add('hidden');
+            document.getElementById('user-list').classList.remove('hidden');
+        });
+
+
+    </script>
+</body>
+</html>

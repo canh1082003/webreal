@@ -1,0 +1,147 @@
+﻿.home-Admin{
+    display:flex
+}
+.hidden{
+    display:none;
+}
+.list-title{
+    background-color:darkcyan;
+    width:20%;
+    text-align:center;
+    padding-top:30px;
+    color:#fff
+}
+.list-product-main{
+    width:80%;
+}
+.title-main{
+    font-size:30px;
+    padding:10px;
+}
+.title-phu {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.title-phu:hover{
+    background-color: #ccc;
+    color:#000
+}
+.hover {
+    background-color: #ccc;
+    color: #000
+}
+.heading-admin-product{
+    display:flex
+}
+.heading-title-admin{
+    flex:1
+}
+.btn-heading-admin{
+    background-color:darkcyan;
+    color:#fff;
+    padding:10px;
+    border-radius:10px;
+    border:none;
+}
+
+/*modalProduct
+Open*/
+.modal {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    
+}
+
+.modal-content {
+    background: #fff;
+    width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 50px;
+    margin-top:150px;
+    margin-left:500px
+}
+.modal-form-product {
+  
+   padding:50px
+}
+.modal-form-name{
+    font-size:20px;
+    margin-bottom:20px
+}
+.modal-form-heading {
+    margin-bottom: 10px
+}
+.productInput {
+    width: 100%;
+    padding:7px
+
+}
+.btn-add{
+    padding:10px 20px;
+    font-size:15px;
+    color:#fff;
+    background-color:darkcyan;
+    border:none;
+    border-radius:5px;
+    margin-right:200px
+}
+.btn-close {
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 5px;
+}
+/*close*/
+
+/*modalEditProduct
+open*/
+.modal-edit {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*close*/
+
+
+/*modalAddUser
+open*/
+.modal-add-user {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+/*close*/
+/*modalEditUser
+open*/
+.modal-edit-user {
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+/*close*/

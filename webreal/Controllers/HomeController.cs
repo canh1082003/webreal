@@ -21,8 +21,22 @@ namespace webreal.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
-
+            return View();
+        }
+        public ActionResult Cart()
+        {
+            return View();
+        }
+        public ActionResult Login()
+        {
+            return View();
+        }
+        public ActionResult Regsiter()
+        {
+            return View();
+        }
+        public ActionResult Admin()
+        {
             return View();
         }
     }
